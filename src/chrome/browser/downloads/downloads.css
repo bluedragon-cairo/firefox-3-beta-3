@@ -253,13 +253,13 @@ toolbar[iconsize="large"] > #downloads-indicator > #downloads-indicator-anchor {
 /*** Main indicator icon ***/
 
 toolbar[iconsize="large"] #downloads-indicator-icon {
-  background: -moz-image-rect(var(--toolbarbutton-large-image),
+  background: -moz-image-rect(var(--toolbarbutton-beta-large-image),
                               0, 144, 24, 120) center right no-repeat;
   background-size: 23px;
 }
 
 toolbar[iconsize="small"] #downloads-indicator-icon {
-  background: -moz-image-rect(var(--toolbarbutton-small-image),
+  background: -moz-image-rect(var(--toolbarbutton-beta-small-image),
                               0, 96, 16, 80) center right no-repeat;
   background-size: 15px;
 }
