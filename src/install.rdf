@@ -8,27 +8,22 @@
     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:id>{0ed852bb-a216-42e9-b98e-98e62085837f}</em:id>
-    <em:version>2.8.2</em:version>
-    <em:name>Moonfox3</em:name>
-    <em:description>Experience all the benefits of Pale Moon with the colorful toolbar goodness of Firefox 3!</em:description>
-    <em:creator>Lootyhoof</em:creator>
+    <em:id>firefox37m@pb</em:id>
+    <em:version>1.0.1</em:version>
+    <em:name>Firefox 3.7 Mockup (Revision 2)</em:name>
+    <em:description>Firefox 3.7 mockup ported to Pale Moon</em:description>
+    <em:creator>길고(달빛) (Original by Tro)</em:creator>
     <em:type>4</em:type>
-    <em:internalName>mf3</em:internalName>
+    <em:internalName>firefox37m</em:internalName>
     <em:skinnable>true</em:skinnable>
 
-    <em:contributor>dallasthemaster</em:contributor>
-    <em:contributor>Jeremy Morton</em:contributor>
-    <em:contributor>Graciliano (Win10 caption buttons)</em:contributor>
-		
     <em:targetApplication>
-      <!-- Pale Moon -->
       <Description>
+        <!-- Pale Moon -->
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-        <em:minVersion>29.3.0</em:minVersion>
+        <em:minVersion>26.0.0</em:minVersion>
         <em:maxVersion>33.*</em:maxVersion>
       </Description>
     </em:targetApplication>
-
   </Description>
 </RDF>

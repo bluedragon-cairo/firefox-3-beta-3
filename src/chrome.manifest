@@ -1,9 +1,10 @@
-skin	browser		mf3	chrome/browser/
-skin	communicator	mf3	chrome/communicator/
-skin	global		mf3	chrome/global/
-skin	mozapps		mf3	chrome/mozapps/
-skin	os			mf3	chrome/os/linux/
-skin	os			mf3	chrome/os/winnt/	os=WINNT	
-skin	os			mf3	chrome/os/darwin/	os=Darwin
+skin 	browser 	firefox37m chrome/browser/
+skin 	communicator 	firefox37m chrome/communicator/
+skin 	global 	firefox37m chrome/global/
+skin 	os 	firefox37m chrome/os/linux/
+skin 	os 	firefox37m chrome/os/winnt/ os=WINNT
+skin 	os 	firefox37m chrome/os/darwin/ os=Darwin
 
 override chrome://browser/skin/autocomplete.css chrome://global/skin/autocomplete.css
+override chrome://devtools/skin/floating-scrollbars-dark-theme.css chrome://global/skin/devtools/floating-scrollbars.css
+override chrome://devtools/skin/floating-scrollbars-responsive-design.css chrome://global/skin/devtools/floating-scrollbars-light.css
