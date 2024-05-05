@@ -9,7 +9,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>firefox30b3@pb</em:id>
-    <em:version>1.0.1</em:version>
+    <em:version>1.0.3</em:version>
     <em:name>Firefox 3.0 Beta 3</em:name>
     <em:description>Firefox 3.0 Beta 3 default theme ported to Pale Moon</em:description>
     <em:creator>길고 (Original Moonfox3 theme by Lootyhoof)</em:creator>
@@ -25,7 +25,7 @@
       <!-- Pale Moon -->
       <Description>
         <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-        <em:minVersion>26.0.0</em:minVersion>
+        <em:minVersion>27.0.0</em:minVersion>
         <em:maxVersion>33.*</em:maxVersion>
       </Description>
     </em:targetApplication>
